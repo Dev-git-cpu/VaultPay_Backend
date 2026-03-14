@@ -11,7 +11,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/users")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://vaultpay-frontend-production.up.railway.app")
 public class UserController {
 
     private final UserService userService;

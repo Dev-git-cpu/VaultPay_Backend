@@ -10,7 +10,6 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/wallet")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://vaultpay-frontend-production.up.railway.app")
 public class WalletController {
 
     private final WalletService walletService;

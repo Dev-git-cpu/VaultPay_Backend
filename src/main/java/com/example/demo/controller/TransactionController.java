@@ -16,7 +16,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/transactions")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://vaultpay-frontend-production.up.railway.app")
 public class TransactionController {
 
     private final TransactionService transactionService;
