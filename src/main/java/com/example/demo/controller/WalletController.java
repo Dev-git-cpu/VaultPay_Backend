@@ -10,7 +10,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/wallet")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:3001", "https://vault-pay-frontend.vercel.app"})
+@CrossOrigin(origins = "https://vaultpay-frontend-production.up.railway.app")
 public class WalletController {
 
     private final WalletService walletService;

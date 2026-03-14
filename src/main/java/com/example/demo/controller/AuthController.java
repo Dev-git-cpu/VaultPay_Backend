@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/auth")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:3001", "https://vault-pay-frontend.vercel.app"})
+@CrossOrigin(origins = "https://vaultpay-frontend-production.up.railway.app")
 public class AuthController {
 
     private final AuthService authService;
