@@ -12,8 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/auth")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3001")
-public class AuthController {
+@CrossOrigin(origins = "http://localhost:3001,https://vault-pay-frontend.vercel.app")public class AuthController {
 
     private final AuthService authService;
 

@@ -16,7 +16,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/transactions")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3001")
+@CrossOrigin(origins = "http://localhost:3001,https://vault-pay-frontend.vercel.app")
 public class TransactionController {
 
     private final TransactionService transactionService;
