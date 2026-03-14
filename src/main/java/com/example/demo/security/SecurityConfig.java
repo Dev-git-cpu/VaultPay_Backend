@@ -55,7 +55,7 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(List.of(
                 "https://vaultpay-frontend-production.up.railway.app",
-                "http://localhost:5173" // optional local dev
+                "http://localhost:4173" // optional local dev
         ));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("*"));
