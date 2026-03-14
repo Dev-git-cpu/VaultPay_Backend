@@ -1,0 +1,13 @@
+package com.example.demo.dto.transaction;
+
+import lombok.*;
+
+import java.math.BigDecimal;
+
+@Data
+public class TransferRequest {
+    private String identifier;
+    private BigDecimal amount;
+    private String message;
+
+}
